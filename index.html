@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Overhang Tower: Resource-Rational Adaptation in Sequential Physical Planning. Humans exhibit a dual transition under resource pressure, simultaneously shifting both physical prediction mechanism and planning strategy.">
+  <meta name="keywords" content="Overhang Tower, intuitive physics, sequential planning, mental simulation, heuristic inference, resource rationality, cognitive science">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Overhang Tower</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <!-- TODO: Replace with your own favicon -->
+  <link rel="icon" href="./static/images/logo.png">
+
+  <!-- MathJax for equations -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+
+
+<style>
+  .morphing-text {
+      background-image: linear-gradient(to right,
+       #3498db 0%, #2980b9 25%, #1abc9c 75%, #16a085 100%
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+  }
+  .center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-logo {
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 0.05em;
+  }
+</style>
+
+<body>
+
+  <!-- Section 1: Banner -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+
+            <!-- Title -->
+            <h1 class="title is-2 publication-title">
+              <img src="./static/images/logo.png" alt="" class="title-logo">
+              <span class="morphing-text model-name">Overhang Tower</span>:
+              <span>Resource-Rational Adaptation in Sequential Physical Planning</span>
+            </h1>
+
+            <!-- Authors -->
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://ruihong04.github.io/">Ruihong Shen</a><sup>1,2,3,4,5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://lishiqianhugh.github.io/">Shiqian Li</a><sup>2,1,4,5</sup>,
+              </span>
+              <span class="author-block">
+                and <a href="https://yzhu.io/">Yixin Zhu</a><sup>1,2,4,5</sup>
+              </span>
+            </div>
+
+            <!-- Affiliations -->
+            <div class="is-size-6 publication-authors">
+              <span class="author-block"><sup>1</sup>School of Psychological and Cognitive Sciences, Peking University</span><br>
+              <span class="author-block"><sup>2</sup>Institute for Artificial Intelligence, Peking University</span> &nbsp;
+              <span class="author-block"><sup>3</sup>School of EECS, Peking University</span><br>
+              <span class="author-block"><sup>4</sup>State Key Laboratory of General Artificial Intelligence, Peking University</span><br>
+              <span class="author-block"><sup>5</sup>Beijing Key Laboratory of Behavior and Mental Health, Peking University</span>
+            </div>
+
+            <!-- Corresponding Email -->
+            <div class="is-size-5 publication-authors" style="margin-top: 5px;">
+              <span class="author-block">Corresponding author: <a href="mailto:yixin.zhu@pku.edu.cn">yixin.zhu@pku.edu.cn</a></span>
+            </div>
+
+            <!-- Links -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <!-- ArXiv Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span> &nbsp;
+
+                <!-- Code Link -->
+                <span class="link-block">
+                  <a href="https://github.com/ruihong04/OverhangTower"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code</span>
+                  </a>
+                </span> &nbsp;
+
+                <!-- Video Link -->
+                <span class="link-block">
+                <a href="https://vimeo.com"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-youtube"></i></span>
+                  <span>Video</span>
+                </a>
+                </span>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Teaser Figure -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div style="text-align: center;">
+          <div style="text-align: center;">
+            <img src="./static/images/intro.png" width="100%" class="center-img"/>
+          </div>
+        </div>
+        <h2 class="subtitle has-text-centered" style="margin-top: 10px;">
+          <b>Humans exhibit a <em>dual transition</em> under resource pressure, simultaneously shifting both physical prediction mechanism and planning strategy to match cognitive budget.</b>
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Overview Video -->
+  <section style="margin-top: -5pt;" class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overview Video</h2>
+          <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/1126658030?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                    title="Overhang Tower"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Abstract -->
+  <section style="margin-top: -5pt;" class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Humans effortlessly navigate the physical world by predicting how objects behave under gravity and contact forces, yet how such judgments support sequential physical planning under resource constraints remains poorly understood. Research on intuitive physics debates whether prediction relies on the <em>Intuitive Physics Engine (IPE)</em> or fast, cue-based heuristics; separately, decision-making research debates deliberative lookahead versus myopic strategies. These debates have proceeded in isolation, leaving the cognitive architecture of sequential physical planning underspecified.
+            </p>
+            <p>
+              Here we show that humans exhibit a <b>dual transition</b> under resource pressure, simultaneously shifting both physical prediction mechanism and planning strategy to match cognitive budget. Using <span class="morphing-text model-name"><b>Overhang Tower</b></span>, a construction task requiring participants to maximize horizontal overhang while maintaining stability, we find that IPE-based simulation dominates early stages while CNN-based visual heuristics prevail as complexity grows; concurrently, time pressure truncates deliberative lookahead, shifting planning toward shallower horizons&mdash;a dual transition unpredicted by prior single-mechanism accounts.
+            </p>
+            <p>
+              These findings reveal a hierarchical, resource-rational architecture that flexibly trades computational cost against predictive fidelity. Our results unify two long-standing debates&mdash;simulation vs. heuristics and myopic vs. deliberative planning&mdash;as a dynamic repertoire reconfigured by cognitive budget.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Task & Stimuli -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+
+          <h2 class="title is-3 has-text-centered">Task Design</h2>
+
+          <h3 class="title is-4">Environment & Interface</h3>
+          <div class="content has-text-justified">
+            <div style="text-align: center;">
+              <img src="./static/images/interface.png" width="100%" class="center-img"/>
+            </div>
+            <p style="margin-top: 10px;">
+              The experiment employs a web-based, interactive 2D construction task in which participants arrange a sequence of 6 blocks on a continuous grid of size 8 &times; 8. Blocks are randomly drawn from three distinct shapes. Upon placement confirmation, the engine simulates dynamics via PyBullet to determine stability. Stable configurations yield a reward proportional to their overhang; any collapse results in zero reward. Simulated states are rendered into photorealistic visual feedback.
+            </p>
+          </div>
+
+          <h3 class="title is-4">Task Characteristics</h3>
+          <div class="content has-text-justified">
+            <p>
+              Unlike binary satisfaction tasks, the objective creates a continuous <b>risk-reward trade-off</b>: extending blocks shifts the center of mass toward the edge, progressively depleting the "stability budget." Optimal performance requires two distinct mechanisms:
+            </p>
+            <ul>
+              <li><b>Counter-weighting</b> &mdash; placing blocks in low-reward positions to preserve stability for later placements, diagnostic of deliberative lookahead.</li>
+              <li><b>Vertical anchoring</b> &mdash; constructing sandwich-like interlocking structures to clamp extended blocks, exploiting frictional forces that resist heuristic approximation.</li>
+            </ul>
+            <p>
+              The following task trajectories illustrate how human participants exploit these two strategies during experiemnts.
+            </p>
+            <div class="trajectory-grid">
+              <figure class="trajectory-card">
+                <img src="./static/images/replay_gifs/myopic.gif" alt="Human task trajectory demonstrating counter-weighting"/>
+                <figcaption class="trajectory-caption">(a) Myopic &nbsp;&nbsp; $R = 1.035$  </figcaption>
+              </figure>
+              <figure class="trajectory-card">
+                <img src="./static/images/replay_gifs/vertical_interlocking.gif" alt="Human task trajectory demonstrating vertical interlocking"/>
+                <figcaption class="trajectory-caption">(b) Vertical anchoring &nbsp;&nbsp; $R = 2.035$</figcaption>
+              </figure>
+              <figure class="trajectory-card">
+                <img src="./static/images/replay_gifs/counter_weighting.gif" alt="Human task trajectory demonstrating counter-weighting"/>
+                <figcaption class="trajectory-caption">(c) Counter-weighting &nbsp;&nbsp; $R = 2.471$  </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <h3 class="title is-4">Experimental Conditions</h3>
+          <div class="content has-text-justified">
+            <p>
+              82 participants were randomly assigned to one of two between-subjects conditions: <b>time-constrained</b> (5s per placement) or <b>unconstrained</b> (unlimited deliberation time). Each participant completed 20 experimental trials.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Models -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+
+          <h2 class="title is-3 has-text-centered">Computational Models</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              We develop a computational framework that factorizes the planning process into two independent components: a <em>physical prediction module</em> that evaluates the stability of candidate configurations, and a <em>planning module</em> that expands the search space before committing to an action.
+            </p>
+          </div>
+
+          <div style="text-align: center;">
+            <img src="./static/images/models.png" width="100%" class="center-img"/>
+          </div>
+
+          <br>
+
+          <h3 class="title is-4">Physical Prediction Models</h3>
+          <div class="content has-text-justified">
+            <p style="margin-top: 10px;">
+              <b>Intuitive Physics Engine (IPE):</b> Estimates stability via Monte Carlo probabilistic simulation. For each candidate action, the model runs $K=50$ forward simulations with stochastic Gaussian perturbations to position, gravity, and friction, producing a probabilistic stability estimate. Computationally expensive but captures uncertainty from perceptual and dynamic noise.
+            </p>
+            <p>
+              <b>Visual-Heuristic Model (CNN):</b> Approximates physical prediction through visual patterns rather than explicit simulation. An Inception-V4 network maps rendered images of post-action geometry to stability probabilities, trained on 200k diverse configurations achieving 97.5% accuracy. Its representational cost remains roughly constant regardless of stack depth.
+            </p>
+          </div>
+
+          <h3 class="title is-4">Planning Algorithms</h3>
+          <div class="content has-text-justified">
+            <p>
+              <b>Myopic Planning:</b> Selects each action based solely on its immediate expected value without anticipating how current choices constrain future possibilities.
+            </p>
+            <p>
+              <b>Deliberative Lookahead:</b> Imagines future trajectories before acting. At each decision state, the planner expands candidate action sequences up to depth $D$ and evaluates their cumulative utilities, enabling counter-weighting and scaffolding strategies.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Results -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+
+          <h2 class="title is-3 has-text-centered">Results</h2>
+
+          <!-- Overall Performance Table -->
+          <h3 class="title is-4">Overall Performance</h3>
+          <div class="content has-text-justified">
+            <p>
+              Time constraints significantly reduced the optimality of successful solutions ($p < .001$) without compromising the overall success rate ($p = .484$), suggesting that under time pressure, humans adopt a <b>risk-averse</b> planning strategy, sacrificing potential reward to ensure stability.
+            </p>
+            <div style="overflow-x: auto;">
+              <table class="table is-bordered is-striped" style="margin: 0 auto;">
+                <thead>
+                  <tr>
+                    <th>Metric</th>
+                    <th>5s Time Limit</th>
+                    <th>No Time Limit</th>
+                    <th>$p$-value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Total reward</td><td>18.25 &plusmn; 0.57</td><td>19.57 &plusmn; 0.56</td><td>.107</td></tr>
+                  <tr><td>Stable rate</td><td>0.702 &plusmn; 0.025</td><td>0.678 &plusmn; 0.021</td><td>.482</td></tr>
+                  <tr><td>Average overhang</td><td>1.321 &plusmn; 0.023</td><td>1.460 &plusmn; 0.029</td><td>&lt;.001</td></tr>
+                  <tr><td>Decision time (s)</td><td>2.47 &plusmn; 0.07</td><td>7.27 &plusmn; 0.88</td><td>&lt;.001</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="result-video-card">
+              <video controls playsinline preload="metadata">
+                <source src="./static/images/replay_gifs/human_trajectory_grid_3x5.mp4" type="video/mp4">
+              </video>
+              <p class="trajectory-caption"><em>Gallery of human task trajectories</em></p>
+            </div>
+          </div>
+
+          <!-- Prediction Mechanism Switching -->
+          <h3 class="title is-4">Physical Prediction Mechanism Switching</h3>
+          <div class="columns">
+            <div class="column is-half content has-text-justified">
+              <p>
+                Both approximate models significantly outperformed the veridical baseline ($p < .001$), confirming that human intuitive physics systematically deviates from Newtonian mechanics. More critically, the relative explanatory power of the two mechanisms shifted systematically: <b>in early stages, IPE exhibited a modest advantage</b>; as scene complexity grew, the <b>visual-heuristic model decisively outperformed IPE</b> ($p < .001$). This crossover reflects a fundamental asymmetry in how the two mechanisms scale with structural depth.
+              </p>
+            </div>
+            <div class="column is-half" style="text-align: center;">
+              <img src="./static/images/model_loglikelihood.png" width="100%" class="center-img"/>
+            </div>
+          </div>
+
+          <!-- Behavioral Evidence for Lookahead -->
+          <h3 class="title is-4">Behavioral Evidence for Deliberative Lookahead</h3>
+          <div class="content has-text-justified">
+            <div style="text-align: center;">
+              <img src="./static/images/traj_distribution.png" width="100%" class="center-img"/>
+            </div>
+            <p style="margin-top: 10px;">
+              We define <b>Order Dependency</b> ($\Gamma$) to measure whether a tower's final geometry can only be achieved through a precise causal construction sequence. Time pressure significantly reduced Order Dependency (Unconstrained: $\Gamma = 0.24 \pm 0.03$; Time-constrained: $\Gamma = 0.15 \pm 0.02$; $p = .022$). This reveals a qualitative shift: unconstrained participants constructed towers demanding precise sequencing, whereas time-constrained participants retreated to order-invariant heuristics.
+            </p>
+          </div>
+
+          <!-- Computational Evidence -->
+          <h3 class="title is-4">Computational Evidence for Deliberative Lookahead</h3>
+          <div class="content has-text-justified">
+            <div style="overflow-x: auto;">
+              <table class="table is-bordered is-striped" style="margin: 0 auto;">
+                <thead>
+                  <tr>
+                    <th>Model</th>
+                    <th>Terminal Reward</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Human (w/ time limit)</td><td>0.913 &plusmn; 0.03</td></tr>
+                  <tr><td>Human (w/o time limit)</td><td>0.979 &plusmn; 0.03</td></tr>
+                  <tr><td>Myopic</td><td>0.52 &plusmn; 0.12</td></tr>
+                  <tr><td>Lookahead ($D=2$)</td><td>0.912 &plusmn; 0.10</td></tr>
+                  <tr><td>Lookahead ($D=3$)</td><td>1.180 &plusmn; 0.24</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p style="margin-top: 10px;">
+              The myopic planner achieves a terminal reward drastically below human baselines. Extending the planning horizon reliably recovers performance. The correspondence between human performance under varying time constraints and models of different search depths suggests that <b>time pressure truncates, but does not eliminate, deliberative lookahead</b>.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Conclusion -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+
+          <h2 class="title is-3 has-text-centered">Conclusion</h2>
+          <div class="content has-text-justified">
+            <p>
+              We introduced <span class="morphing-text model-name"><b>Overhang Tower</b></span>, a construction task probing sequential physical planning under risk-reward trade-offs. By manipulating time pressure, we tested whether humans adaptively shift both physical prediction mechanisms and planning strategies as cognitive resources vary. Our results support a <b>resource-rational architecture at two levels</b>: IPE-based simulation dominated early stages, whereas visual heuristics prevailed as complexity grew; concurrently, time pressure truncated deliberative lookahead toward shallower planning horizons.
+            </p>
+            <p>
+              These findings unify two previously isolated debates (simulation vs. heuristics and myopic vs. deliberative planning) as a <b>dynamic repertoire reconfigured by cognitive budget</b>. By treating humans as active, capacity-limited agents rather than passive observers, our framework offers a computational foundation for understanding physical problem-solving in the wild.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: BibTeX -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3 has-text-centered">BibTeX</h2>
+      <div class="content has-text-justified">
+
+        <p>
+          If you find our work helpful, please consider citing:
+        </p>
+        <pre>
+<code>@article{shen2026overhangtower,
+  title={Overhang Tower: Resource-Rational Adaptation in Sequential Physical Planning},
+  author={Shen, Ruihong and Li, Shiqian and Zhu, Yixin},
+  year={2026},
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p style="text-align: center">
+              Website template is borrowed from <a href="https://nerfies.github.io">Nerfies</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

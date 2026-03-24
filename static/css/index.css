@@ -1,0 +1,92 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.link-block a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors a {
+  color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.model-name {
+  font-variant: small-caps;
+}
+
+.trajectory-grid {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content .trajectory-grid figure.trajectory-card {
+  flex: 1 1 0;
+  max-width: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.content .trajectory-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.trajectory-caption {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #4a4a4a;
+}
+
+.result-video-card {
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.result-video-card video {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .trajectory-grid {
+    flex-direction: column;
+  }
+  .content .trajectory-grid figure.trajectory-card {
+    max-width: 100%;
+  }
+}
