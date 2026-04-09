@@ -1,5 +1,7 @@
 <h1 align="center"> Overhang Tower: Resource-Rational Adaptation in Sequential Physical Planning</h1>
 
+<h3 align="center">CogSci 2026</h3>
+
 <div align="center">
     <p>
         <a href="https://ruihong04.github.io/">Ruihong Shen</a>&nbsp;&nbsp;
